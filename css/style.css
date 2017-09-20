@@ -1,0 +1,93 @@
+html {
+    font-family: 'Lato', 'Open Sans', 'Raleway', 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: #000000;
+
+    overflow: hidden;
+}
+body {
+    
+}
+
+h1, h2, h3, h4, p {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 56px;
+    color: #2A45FF;
+    margin: 10px 0px 20px 0px;
+}
+h2 {
+    font-size: 36px;
+    color: #4263FF;
+    margin: 5px 0px 10px 0px;
+}
+h3 {
+    font-size: 28px;
+    color: #2A45FF;
+    margin: 5px 0px 10px 0px;
+}
+h4, input {
+    font-size: 24px;
+    color: #4263FF;
+    margin: 5px 0px 10px 0px;
+}
+input, input:focus {
+    width: 80%;
+    min-width: 400px;
+    padding-bottom: 5px;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #2A45FF;
+}
+button {
+    font-size: 24px;
+    color: #4263FF;
+    padding: 10px 15px;
+    background-color: #FFFFFF;
+    border: solid 1px #4263FF;
+    border-radius: 4px;
+    outline: none;
+}
+button:hover, button:focus {
+    background-color: #EEEEEE;
+    outline: none;
+}
+button:active {
+    background-color: #DDDDDD;
+    outline: none;
+}
+p {
+    font-size: 24px;
+    color: #000000;
+    margin: 10px 0px;
+}
+
+#result-div {
+    display: block;
+    margin-top: 50px;
+}
+
+
+
+
+/* CONTENT */
+.absatz {
+    width: 100%;
+    height: 100vh;
+}
+.absatz > div {
+    width: 60%;
+    min-width: 800px;
+    max-width: 1500px;
+    margin: 0px auto;
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+}
+.absatz > div > span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
